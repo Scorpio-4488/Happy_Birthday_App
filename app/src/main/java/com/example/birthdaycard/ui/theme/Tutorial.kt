@@ -51,7 +51,7 @@ fun TutorialScreen(title: String, para1: String, para2: String, modifier: Modifi
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun TutorialPreview(){
-    BirthdayCardTheme() {
+    BirthdayCardTheme {
         TutorialScreen(
             title = stringResource(R.string.tutorial_heading),
             para1 = stringResource(R.string.tutorial_para_one),

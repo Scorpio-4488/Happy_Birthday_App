@@ -10,7 +10,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import com.example.birthdaycard.ui.theme.BirthdayCardTheme
-import com.example.birthdaycard.ui.theme.TutorialScreen
+import com.example.birthdaycard.ui.theme.TaskManagerScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,10 +22,9 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    TutorialScreen(
-                        title = stringResource(R.string.tutorial_heading),
-                        para1 = stringResource(R.string.tutorial_para_one),
-                        para2 = stringResource(R.string.tutorial_para_two),
+                    TaskManagerScreen(
+                        message = stringResource(R.string.task_message),
+                        praise = stringResource(R.string.task_praise),
                         modifier = Modifier
                     )
                 }
