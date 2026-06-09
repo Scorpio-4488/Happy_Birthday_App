@@ -22,4 +22,12 @@
 
     <string name="column_title">Column composable</string>
     <string name="column_description">A layout composable that places its children in a vertical sequence.</string>
+
+    <!-- Business Card App -->
+    <string name="main_name">Sagar Sahu</string>
+    <string name="main_position">Frontend Android Developer</string>
+    <string name="info_phone">+11 (123) 444 555 666</string>
+    <string name="info_share">\@AndroidDev</string>
+    <string name="info_email">sagar@gmail.com</string>
+
 </resources>

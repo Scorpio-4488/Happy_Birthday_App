@@ -9,7 +9,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.example.birthdaycard.ui.theme.BirthdayCardTheme
-import com.example.birthdaycard.ui.theme.ComposeQuadrantScreen
+import com.example.birthdaycard.ui.theme.BusinessCardApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ComposeQuadrantScreen()
+                    BusinessCardApp()
                 }
             }
         }
