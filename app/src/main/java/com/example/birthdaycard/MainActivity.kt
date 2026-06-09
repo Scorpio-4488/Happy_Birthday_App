@@ -8,25 +8,20 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.stringResource
 import com.example.birthdaycard.ui.theme.BirthdayCardTheme
-import com.example.birthdaycard.ui.theme.TaskManagerScreen
+import com.example.birthdaycard.ui.theme.ComposeQuadrantScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            BirthdayCardTheme {
+            BirthdayCardTheme(darkTheme = false, dynamicColor = false) {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    TaskManagerScreen(
-                        message = stringResource(R.string.task_message),
-                        praise = stringResource(R.string.task_praise),
-                        modifier = Modifier
-                    )
+                    ComposeQuadrantScreen(modifier = Modifier.fillMaxSize())
                 }
             }
         }
