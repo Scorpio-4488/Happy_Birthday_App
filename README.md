@@ -13,7 +13,7 @@ A vibrant birthday greeting card that displays a personalized message over a fes
 **Key Concepts:** `Box` layout, `Image` composable, `ContentScale.Crop`, alpha transparency, `stringResource`
 
 <p align="center">
-  <img src="screenshots/birthday_card.png" alt="Birthday Card Screenshot" width="250"/>
+  <img src="screenshots/bilbo_birtday.jpeg" alt="Birthday Card Screenshot" width="250"/>
 </p>
 
 ---
