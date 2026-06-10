@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Birthday Card</string>
     <!-- Birthday App -->
-    <string name="happy_birthday_text">Happy Birthday Sam!</string>
-    <string name="signature_text">From Emma</string>
+    <string name="happy_birthday_text">Happy Eleventy-First Birthday, Bilbo!</string>
+    <string name="signature_text">— Gandalf the Grey</string>
     <!-- Jetpack Compose Tutorial Screen -->
     <string name="tutorial_heading">Jetpack Compose tutorial</string>
     <string name="tutorial_para_one">Jetpack Compose is a modern toolkit for building native Android UI. Compose simplifies and accelerates UI development on Android with less code, powerful tools, and intuitive Kotlin APIs.</string>
